@@ -7,7 +7,61 @@
         <link href="./css/output.css" rel="stylesheet" />
     </head>
     <body>
-        <span class="font-bold text-5xl text-center">DataPilot</span>
+        <header
+            class="flex w-full ml-3 md:ml-0 justify-between sm:justify-around items-center py-5"
+        >
+            <a href="#">
+                <span
+                    class="logo text-black font-extrabold text-2xl hover:text-[#6366F1] transition"
+                    >DataPilot</span
+                >
+            </a>
+            <button class="burger block sm:hidden mr-5">
+                <img src="./assets/Button-open.svg" alt="open burger menu" />
+            </button>
+            <nav class="hidden sm:block">
+                <ul class="flex items-center gap-x-5 text-[#4B5563]">
+                    <li>
+                        <a
+                            class="hover:text-[#6366F1] transition"
+                            href="#features"
+                            >Features</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-[#6366F1] transition"
+                            href="#pricing"
+                            >Pricing</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="hover:text-[#6366F1] transition"
+                            href="#testimonials"
+                            >Testimonials</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            class="bg-[#6366F1] hover:bg-[#202011] transition text-white rounded-lg px-4 py-2 block"
+                            href="#get-started"
+                            >Get Started</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section
+                id="hero"
+                class="bg-[#4F46E5] text-white pt-24 pb-32 md:pt-32 md:pb-40"
+            ></section>
+            <section id="features"></section>
+            <section id="testimonials"></section>
+            <section id="pricing"></section>
+        </main>
+        <footer></footer>
         <script defer src="./js/main.js"></script>
     </body>
 </html>
