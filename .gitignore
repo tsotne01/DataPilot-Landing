@@ -32,4 +32,4 @@ Thumbs.db
 *.sw?
 
 #output.css
-./css/output.css
+src/css/output.css
