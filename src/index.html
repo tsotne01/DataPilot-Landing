@@ -181,102 +181,491 @@
                     </div>
                 </div>
             </section>
-            <section id="testimonials">
-                <div class="w-full bg-[#F3F4F6] shadow-lg pt-28">
-                    <h2 class="text-4xl font-bold text-center mb-4">
-                        Trusted by Teams Worldwide
-                    </h2>
-                    <p class="text-gray-600 text-center block mb-16">
-                        Don't just take our word for it. See how DataPilot
-                        empowers businesses like yours.
-                    </p>
-                    <div
-                        class="testimonials-wrapper flex items-center justify-center gap-x-4 relative overflow-hidden"
-                    >
-                        <button
-                            class="bg-white rounded-full h-12 w-12 absolute top-[50%] left-0 flex justify-center items-center"
+            <section
+                id="testimonials"
+                class="mb-20 md:mb-28 bg-gray-100 py-20 md:py-28"
+            >
+                <div class="container mx-auto px-6">
+                    <div class="text-center max-w-3xl mx-auto mb-16">
+                        <h2
+                            class="text-3xl md:text-4xl font-bold mb-4 text-neutral-900"
                         >
-                            <img src="./assets/arrow-left.svg" alt="" />
-                        </button>
-                        <div class="overflow-scroll scrollbar-w-0 flex gap-x-4">
+                            Trusted by Teams Worldwide
+                        </h2>
+                        <p class="text-lg text-neutral-600 leading-relaxed">
+                            Don't just take our word for it. See how DataPilot
+                            empowers businesses like yours.
+                        </p>
+                    </div>
+                    <div class="relative max-w-xl mx-auto">
+                        <div class="overflow-hidden rounded-xl">
                             <div
-                                class="testimonial max-w-lg bg-white p-8 rounded-xl"
+                                id="testimonial-slider-track"
+                                class="flex testimonial-slider-track"
                             >
-                                <blockquote
-                                    class="italic text-gray-600 text-base mb-6 min-w-52"
+                                <div
+                                    class="testimonial-slide w-full flex-shrink-0"
                                 >
-                                    "DataPilot revolutionized how we handle
-                                    data. The real-time analytics are a
-                                    game-changer for our decision-making
-                                    process."
-                                </blockquote>
-                                <div class="flex">
-                                    <img
-                                        class="rounded-full w-9 h-9 mr-4"
-                                        src="https://avatar.iran.liara.run/public/49"
-                                        alt="placeholder avatar"
-                                    />
-                                    <span class="text-gray-800 font-bold"
-                                        >Alice Johnson</span
+                                    <div
+                                        class="bg-white p-8 rounded-xl shadow-md h-full flex flex-col"
                                     >
+                                        <blockquote
+                                            class="italic text-gray-600 text-base mb-6 flex-grow"
+                                        >
+                                            "DataPilot revolutionized how we
+                                            handle data. The real-time analytics
+                                            are a game-changer for our
+                                            decision-making process."
+                                        </blockquote>
+                                        <div class="flex items-center mt-auto">
+                                            <img
+                                                class="rounded-full w-12 h-12 mr-4 object-cover"
+                                                src="https://placehold.co/60x60/E2E8F0/4A5568?text=AJ"
+                                                alt="Alice Johnson"
+                                            />
+                                            <div>
+                                                <span
+                                                    class="text-gray-800 font-semibold block"
+                                                    >Alice Johnson</span
+                                                >
+                                                <span
+                                                    class="text-gray-500 text-sm"
+                                                    >CEO, TechCorp</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div
-                                class="testimonial max-w-lg bg-white p-8 rounded-xl"
-                            >
-                                <blockquote
-                                    class="italic text-[#4B5563] text-base mb-6 min-w-52"
+                                <div
+                                    class="testimonial-slide w-full flex-shrink-0"
                                 >
-                                    "DataPilot revolutionized how we handle
-                                    data. The real-time analytics are a
-                                    game-changer for our decision-making
-                                    process."
-                                </blockquote>
-                                <div class="flex">
-                                    <img
-                                        class="rounded-full w-9 h-9 mr-4"
-                                        src="https://avatar.iran.liara.run/public/49"
-                                        alt="placeholder avatar"
-                                    />
-                                    <span class="text-gray-800 font-bold"
-                                        >Alice Johnson</span
+                                    <div
+                                        class="bg-white p-8 rounded-xl shadow-md h-full flex flex-col"
                                     >
-                                </div>
-                            </div>
-                            <div
-                                class="testimonial max-w-lg bg-white p-8 rounded-xl"
-                            >
-                                <blockquote
-                                    class="italic text-[#4B5563] text-base mb-6 min-w-52"
-                                >
-                                    "DataPilot revolutionized how we handle
-                                    data. The real-time analytics are a
-                                    game-changer for our decision-making
-                                    process."
-                                </blockquote>
-                                <div class="flex">
-                                    <img
-                                        class="rounded-full w-9 h-9 mr-4"
-                                        src="https://avatar.iran.liara.run/public/49"
-                                        alt="placeholder avatar"
-                                    />
-                                    <span class="text-gray-800 font-bold"
-                                        >Alice Johnson</span
-                                    >
+                                        <blockquote
+                                            class="italic text-gray-600 text-base mb-6 flex-grow"
+                                        >
+                                            "The integration capabilities are
+                                            top-notch. We connected all our
+                                            tools within hours, not days. Highly
+                                            recommended!"
+                                        </blockquote>
+                                        <div class="flex items-center mt-auto">
+                                            <img
+                                                class="rounded-full w-12 h-12 mr-4 object-cover"
+                                                src="https://placehold.co/60x60/CBD5E0/4A5568?text=BW"
+                                                alt="Bob Williams"
+                                            />
+                                            <div>
+                                                <span
+                                                    class="text-gray-800 font-semibold block"
+                                                    >Bob Williams</span
+                                                >
+                                                <span
+                                                    class="text-gray-500 text-sm"
+                                                    >Data Lead, Innovate
+                                                    Solutions</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <button
-                            class="bg-white rounded-full h-12 w-12 absolute top-[50%] right-0 flex justify-center items-center"
+                            id="prev-testimonial"
+                            class="bg-white/80 hover:bg-white rounded-full h-10 w-10 absolute top-1/2 transform -translate-y-1/2 left-0 -translate-x-1/2 flex justify-center items-center shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-[#6366F1] focus:ring-offset-2"
+                            aria-label="Previous testimonial"
                         >
-                            <img src="./assets/arrow-rigth.svg" alt="" />
+                            <svg
+                                class="w-5 h-5 text-neutral-600"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M15 19l-7-7 7-7"
+                                ></path>
+                            </svg>
+                        </button>
+                        <button
+                            id="next-testimonial"
+                            class="bg-white/80 hover:bg-white rounded-full h-10 w-10 absolute top-1/2 transform -translate-y-1/2 right-0 translate-x-1/2 flex justify-center items-center shadow-md hover:shadow-lg transition-all focus:outline-none focus:ring-2 focus:ring-[#6366F1] focus:ring-offset-2"
+                            aria-label="Next testimonial"
+                        >
+                            <svg
+                                class="w-5 h-5 text-neutral-600"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M9 5l7 7-7 7"
+                                ></path>
+                            </svg>
                         </button>
                     </div>
                 </div>
             </section>
-            <section id="pricing"></section>
+            <section id="pricing" class="mb-20 md:mb-28 container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2
+                        class="text-3xl md:text-4xl font-bold mb-4 text-neutral-900"
+                    >
+                        Simple, Transparent Pricing
+                    </h2>
+                    <p class="text-lg text-neutral-600 leading-relaxed">
+                        Choose the plan that fits your needs. Start free, scale
+                        as you grow.
+                    </p>
+                </div>
+                <div
+                    class="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto items-stretch"
+                >
+                    <article
+                        class="border border-neutral-200 rounded-xl p-8 flex flex-col shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+                    >
+                        <h3
+                            class="text-xl font-semibold mb-2 text-center text-neutral-800"
+                        >
+                            Starter
+                        </h3>
+                        <p class="text-sm text-neutral-500 text-center mb-5">
+                            Perfect for individuals & small teams
+                        </p>
+                        <p
+                            class="text-4xl font-bold text-center mb-1 text-neutral-900"
+                        >
+                            $29
+                        </p>
+                        <p class="text-center text-neutral-500 mb-8">
+                            per month
+                        </p>
+                        <ul
+                            class="space-y-3 text-neutral-600 mb-10 flex-grow"
+                            aria-label="Starter plan features"
+                        >
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Basic Analytics
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >1 Integration
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >10 GB Storage
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Email Support
+                            </li>
+                        </ul>
+                        <a
+                            href="#"
+                            class="w-full text-center bg-neutral-100 text-neutral-700 font-semibold py-3 px-6 rounded-lg hover:bg-neutral-200 border border-neutral-200 hover:border-neutral-300 transition duration-300 mt-auto"
+                            >Choose Plan</a
+                        >
+                    </article>
+                    <article
+                        class="border-2 border-[#6366F1] rounded-xl p-8 flex flex-col shadow-lg relative overflow-hidden bg-white transform lg:scale-105"
+                    >
+                        <span
+                            class="absolute top-0 right-0 bg-[#6366F1] text-white text-xs font-semibold px-4 py-1 rounded-bl-lg tracking-wide"
+                            >Most Popular</span
+                        >
+                        <h3
+                            class="text-xl font-semibold mb-2 text-center text-[#6366F1]"
+                        >
+                            Pro
+                        </h3>
+                        <p class="text-sm text-neutral-500 text-center mb-5">
+                            Ideal for growing businesses
+                        </p>
+                        <p
+                            class="text-4xl font-bold text-center mb-1 text-neutral-900"
+                        >
+                            $99
+                        </p>
+                        <p class="text-center text-neutral-500 mb-8">
+                            per month
+                        </p>
+                        <ul
+                            class="space-y-3 text-neutral-600 mb-10 flex-grow"
+                            aria-label="Pro plan features"
+                        >
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Advanced Analytics
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >5 Integrations
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >100 GB Storage
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Priority Support
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >API Access
+                            </li>
+                        </ul>
+                        <a
+                            href="#"
+                            class="w-full text-center bg-[#6366F1] text-white font-semibold py-3 px-6 rounded-lg hover:bg-[#4f46e5] shadow-sm hover:shadow-md transition-all duration-300 mt-auto"
+                            >Choose Plan</a
+                        >
+                    </article>
+                    <article
+                        class="border border-neutral-200 rounded-xl p-8 flex flex-col shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+                    >
+                        <h3
+                            class="text-xl font-semibold mb-2 text-center text-neutral-800"
+                        >
+                            Enterprise
+                        </h3>
+                        <p class="text-sm text-neutral-500 text-center mb-5">
+                            For large-scale deployments
+                        </p>
+                        <p
+                            class="text-4xl font-bold text-center mb-1 text-neutral-900"
+                        >
+                            Custom
+                        </p>
+                        <p class="text-center text-neutral-500 mb-8">
+                            Contact us for pricing
+                        </p>
+                        <ul
+                            class="space-y-3 text-neutral-600 mb-10 flex-grow"
+                            aria-label="Enterprise plan features"
+                        >
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Everything in Pro+
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Unlimited Integrations
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Dedicated Infrastructure
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >24/7 Dedicated Support
+                            </li>
+                            <li class="flex items-center">
+                                <svg
+                                    class="w-5 h-5 text-green-500 mr-3 flex-shrink-0"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M5 13l4 4L19 7"
+                                    ></path></svg
+                                >Custom Onboarding
+                            </li>
+                        </ul>
+                        <a
+                            href="#"
+                            class="w-full text-center bg-neutral-100 text-neutral-700 font-semibold py-3 px-6 rounded-lg hover:bg-neutral-200 border border-neutral-200 hover:border-neutral-300 transition duration-300 mt-auto"
+                            >Contact Us</a
+                        >
+                    </article>
+                </div>
+            </section>
         </main>
         <footer></footer>
-        <script defer src="./js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
